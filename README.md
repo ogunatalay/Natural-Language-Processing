@@ -88,14 +88,14 @@ Derin öğrenme modelleri: %85 - %90 doğruluk oranı<br>
 Transfer öğrenme modeli (DistilBERT) modeli: %92 doğruluk oranı ile en iyi sonucu vermiştir.<br>
 
 **Hakaret Kelimelerinin Ağırlıklandırılması:** <br>
-Geliştirilen özel bir mekanizma sayesinde, sistem metin içinde ağır hakaret kelimeleri tespit ettiğinde "%100 offensive" sonucu döndürmektedir.<br>
+Ağırlıklandırılma yöntemi sayesinde, model metin içinde hakaret, argo veya küfür gibi kelimeleri tespit ettiğinde "%100 offensive" sonucu döndürmektedir.<br>
 Bu sayede, metin içeriğiyle ilgili kesin bir karar mekanizması oluşturulmuştur.<br>
 
-**Sonuçların Kullanımı:** <br>
+**Sonuçların Kullanımı (Tahmin Modeli):** <br>
 Bu tahmin modeli, girilen herhangi bir metnin "Saldırgan" (Offensive) veya "Saldırgan Olmayan" (Not Offensive) olduğunu yüksek doğrulukla belirleyebilmektedir.<br>
 Model, sosyal medya platformlarında nefret söylemi tespiti ve otomatik moderasyon süreçlerinde kullanılabilir.<br>
 
-**Genel Değerlendirme:**<br>
+**Genel Değerlendirme:** <br>
 Bu çalışma, Türkçe tweetlerde nefret söylemi tespitinin önemli bir sorun olduğunu ve derin öğrenme & transfer öğrenme yöntemlerinin bu alandaki etkinliğini ortaya koymuştur.<br>
 
 Klasik makine öğrenmesi yöntemleri, belirli bir başarı sağlamış olsa da, metinlerin bağlamını tam olarak anlamada eksik kalmıştır.<br>
