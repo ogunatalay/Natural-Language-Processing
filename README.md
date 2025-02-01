@@ -8,8 +8,9 @@ Bu projede, sosyal medyada karşılaşılan nefret söylemlerinin otomatik olara
 - Stopword temizleme, özel karakter ve URL kaldırma işlemleri uygulanmıştır.<br>
 - Hakaret kelimeleri ağırlıklandırılarak, modelin saldırgan metinleri daha iyi tespit etmesi sağlanmıştır.<br>
 - Metinler TF-IDF ve Word Embedding yöntemleri ile sayısal forma dönüştürülmüştür.<br>
+- SVD ile veri indirgeme işlemi yapılarak modellerin hesaplama maliyetleri azaltılmıştır. 
 - Klasik Makine Öğrenmesi, Derin Öğrenme ve Transfer Öğrenme yöntemleri kullanılmıştır.<br>
-- Modellerin performansı karşılaştırılmış ve en iyi performansı gösteren model son aşamada oluşturulan "Tahmin Modeli"nde kullanılmıştır.
+- Çalışma kapsamında kullanılan modellerin performansı karşılaştırılmış ve en iyi performansı gösteren model son aşamada oluşturulan "Tahmin Modeli"nde kullanılmıştır.
 
 📂 **VERİ SETİ HAKKINDA**<br>
 Bu çalışmada OffensEval 2020 veri seti kullanılmıştır. Bu veri seti sosyal medya üzerindeki saldırgan dil kullanımını tanımlamak amacıyla Çağrı ÇÖLTEKİN tarafından geliştirilmiştir. Özellikle Türkçe dilindeki sosyal medya paylaşımlarını (özellikle Twitter) içeren bu veri seti, metinlerin saldırgan (offensive) ya da saldırgan olmayan (non-offensive) olarak etiketlendiği bir sınıflandırma problemine odaklanmaktadır. Offensive metinler “1”, not-offensive metinler “0” olmak üzere nümerik değere çevrilmiştir. Ayrıca bu veri seti, sosyal medya platformlarındaki dilin analiz edilmesi, nefret söylemi, trolling, hakaret ve aşağılama gibi olguların tanımlanmasında da kullanılabilir.Veri seti, JSONLines formatında ve UTF-8 kodlamasıyla paylaşılmaktadır. Her bir örnek (tweet) şu formatta bir veri içerir:<br>
