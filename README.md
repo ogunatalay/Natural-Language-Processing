@@ -81,8 +81,8 @@ Transfer öğrenme, önceden büyük veri kümeleri üzerinde eğitilmiş modell
 
 **📝SONUÇLAR VE ÇIKARIMLAR**<br>
 **Performans Karşılaştırması:** <br>
-Klasik makine öğrenmesi modelleri: %80 - %85 başarı oranı<br>
-Derin öğrenme modelleri: %85 - %90 başarı oranı<br>
+Klasik makine öğrenmesi modelleri: %80 - %85 doğruluk oranı<br>
+Derin öğrenme modelleri: %85 - %90 doğruluk oranı<br>
 Transfer öğrenme modeli (DistilBERT) modeli: %92 doğruluk oranı ile en iyi sonucu vermiştir.<br>
 
 **Hakaret Kelimelerinin Ağırlıklandırılması:** <br>
