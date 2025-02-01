@@ -5,7 +5,7 @@ Bu projede, sosyal medyada karşılaşılan nefret söylemlerinin otomatik olara
 
 📌 **PROJE İÇERİĞİ** <br>
 - NLTK ve Zemberek NLP kütüphaneleri kullanılarak metinler işlenmiştir.<br>
-- Stopword temizleme, özel karakter ve URL kaldırma işlemleri uygulanmıştır.<br>
+- Stopword temizleme, kullanıcı adı temizleme, özel karakter ve URL kaldırma işlemleri uygulanmıştır.<br>
 - Hakaret kelimeleri ağırlıklandırılarak, modelin saldırgan metinleri daha iyi tespit etmesi sağlanmıştır.<br>
 - Metinler TF-IDF ve Word Embedding yöntemleri ile sayısal forma dönüştürülmüştür.<br>
 - SVD ile veri indirgeme işlemi yapılarak modellerin hesaplama maliyetleri azaltılmıştır. 
