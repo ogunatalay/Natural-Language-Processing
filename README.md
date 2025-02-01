@@ -36,7 +36,7 @@ Metinleri daha anlamlı hale getirebilmek için aşağıdaki işlemler gerçekle
 - Köklerine indirgeme (Lemmatization/Stemming): Kelimelerin kök formları çıkarılmıştır.<br>
 - Stopword temizleme: Türkçe'de sık kullanılan ancak anlam taşımayan kelimeler kaldırılmıştır.<br>
 - Özel karakter ve URL temizliği: Metinlerde yer alan noktalama işaretleri, emojiler, bağlantılar (URLs) silinmiştir.<br>
-- Hakaret kelimelerinin ağırlıklandırılması: Küfür veya hakaret içeren kelimelere ekstra ağırlık verilerek, sistemin saldırgan metinleri daha iyi ayırt etmesi sağlanmıştır. (Ağırklandırılma için kullanılan
+- Hakaret kelimelerinin ağırlıklandırılması: Küfür veya hakaret içeren kelimelere ekstra ağırlık verilerek, sistemin saldırgan metinleri daha iyi ayırt etmesi sağlanmıştır. (Ağırlıklandırılma için kullanılan
   hakaret kelimeleri TDK'ın sayfasından ve çeşitli hukuk sayfaları referans alınarak belirlenmiştir.)<br>
 
 **II. Vektörleştirme Yöntemleri**<br>
