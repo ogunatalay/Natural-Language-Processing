@@ -22,21 +22,9 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-import nltk
-from nltk.corpus import stopwords
 import re
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, classification_report, precision_score, recall_score, f1_score
 from sklearn.pipeline import make_pipeline
-from sklearn.decomposition import TruncatedSVD
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense, Dropout, Flatten
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -51,13 +39,7 @@ import jpype.imports
 from jpype.types import JString
 import jsonlines
 
-from google.colab import drive
 
-# Google Drive'ı bağla
-drive.mount('/content/drive')
-
-import pandas as pd
-import matplotlib.pyplot as plt
 from google.colab import drive
 
 # Google Drive'ı bağlayalım
